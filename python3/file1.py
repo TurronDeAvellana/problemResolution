@@ -6,7 +6,18 @@ def sum(array: list, target: int) -> int:
             if (i +f) == target:
              print(i,f)
 
+# https://leetcode.com/problems/palindrome-number/description/
+
+def isPalindrome (n: int) -> bool:
+
+    array = [int(x) for x in str(n)] 
+    invertedArray = array[::-1]
     
-        
+    if (array == invertedArray):
+        print(True)
+    else:
+        print(False)
+
     
 
+   
