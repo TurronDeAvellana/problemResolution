@@ -50,3 +50,15 @@ def validParenthesis (a: list) -> bool:
         print("True")
     else:
         print("False")
+
+#--------------------------------------------------------------------------------------------      
+#https://leetcode.com/problems/remove-element/description/
+
+def removeElement(a:list,  n: int) -> list:
+
+    for i in a:
+         if (a[i] == n):
+            a.remove(a[i])
+            
+    return print(a)
+
